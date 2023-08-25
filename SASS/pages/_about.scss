@@ -1,0 +1,92 @@
+.about-section {
+  width: 100%;
+  .img-size {
+    width: 450px;
+  }
+  .about-container {
+    .about1 {
+      .about-left {
+        padding: 40px;
+        * {
+          margin-top: 20px;
+        }
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 12px;
+        }
+        button:first-child {
+          border-radius: 6px;
+          border: 1px solid #e7e8e3;
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+          background-color: #fff;
+          color: #000;
+          &:hover {
+            background-color: #cf6f49;
+            border: 1px solid #cf6f49;
+            color: #fff;
+          }
+        }
+        h5 {
+          font-size: 11px;
+          margin-left: 15px;
+          margin-top: 15px;
+          color: #000;
+          cursor: pointer;
+          img {
+            margin-left: 7px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .about2 {
+      margin-top: 100px;
+      .about-right2 {
+        padding: 40px;
+        * {
+          margin-top: 10px;
+        }
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .about-cards {
+          img {
+            border-radius: 8px;
+            background: #fae8e1;
+            padding: 10px;
+          }
+          h4 {
+            font-size: 20px;
+          }
+        }
+        button {
+          border-radius: 6px;
+          border: 1px solid #e7e8e3;
+          background: #fff;
+          color: #000;
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+          &:hover {
+            background-color: #cf6f49;
+            border: 1px solid #cf6f49;
+            color: #fff;
+          }
+        }
+        h5 {
+          margin-left: 30px;
+          margin-top: 15px;
+          font-size: 12px;
+          cursor: pointer;
+          img {
+            margin-left: 8px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

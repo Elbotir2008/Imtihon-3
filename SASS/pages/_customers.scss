@@ -1,0 +1,61 @@
+.customers-section {
+  width: 100%;
+  height: 600px;
+  background-color: #eee;
+  margin-top: -50px;
+  .custeomers-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    h2 {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+    p {
+      font-size: 11px;
+    }
+  }
+  .customers-body {
+    .customers-cards {
+      gap: 10px;
+      .customers-card {
+        border-radius: 16px;
+        border: 1px solid #ccc;
+        background: #eee;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+        padding: 15px;
+        width: 300px;
+        height: 250px;
+        transition: 0.2s linear;
+        cursor: pointer;
+        .custom-img {
+          margin-bottom: 20px;
+          margin-top: 10px;
+        }
+        p {
+          font-size: 11px;
+          margin-bottom: 30px;
+          width: 220px;
+        }
+        .custom-person {
+          img {
+            margin-right: 15px;
+          }
+          .person-titles {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            b {
+              margin-top: 10px;
+              margin-bottom: -10px;
+            }
+          }
+        }
+        &:hover {
+          transition: 0.2s linear;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

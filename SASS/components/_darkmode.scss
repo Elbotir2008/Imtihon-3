@@ -1,0 +1,26 @@
+html {
+  background-color: white;
+  color: black;
+}
+.toogle-dark {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  font-size: 12px;
+  border: 1px solid #cf6f49;
+  color: #cf6f49;
+  cursor: pointer;
+  padding: 5px 20px;
+  transition: 0.1s linear;
+  z-index: 1000;
+  &:hover {
+    background-color: #cf6f49;
+    color: #fff;
+    border: 1px solid #cf6f49;
+    transition: 0.1s linear;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
